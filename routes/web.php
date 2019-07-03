@@ -14,7 +14,5 @@
 Route::get('/', function () {
     return view('layout');
 });
-Route::get('/prueba', function () {
-    return view('prueba');
-});
+Route::get('/prueba','AliadoController@index');
 

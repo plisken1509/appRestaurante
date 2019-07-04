@@ -70,7 +70,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
         <div class="container">
             <div class="w3ls_logo_products_left1">
                 <ul class="phone_email">
-                    <li><i class="fa fa-phone" aria-hidden="true"></i>Order online or call us : (+0123) 234 567</li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i>Order online or call us : (+593) 2368 492</li>
                     
                 </ul>
             </div>
@@ -223,7 +223,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
         <div class="container">
             <h3>ALIADOS</h3>
             <div class="brands-agile">
-                
+
                 @foreach($aliados as $aliado)
                 <div class="col-md-2 w3layouts-brand">
                     <div class="brands-w3l">

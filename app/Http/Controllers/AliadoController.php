@@ -2,7 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Aliado;
+
+use App\Aliados;
 use Illuminate\Http\Request;
 
 class AliadoController extends Controller
@@ -14,7 +15,7 @@ class AliadoController extends Controller
      */
     public function index()
     {
-        $aliados=Aliado::all();
+        $aliados=Aliados::all();
         return view('layout',compact('aliados'));
     }
 

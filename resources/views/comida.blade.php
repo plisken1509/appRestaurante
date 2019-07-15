@@ -9,5 +9,5 @@
 @endsection
 
 @section('content')
-    <p>Pablo</p>
+    <p>This is my body content.</p>
 @endsection

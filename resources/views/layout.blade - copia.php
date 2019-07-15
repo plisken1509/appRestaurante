@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-    <title>App Name - @yield('title')</title>
+    <title>Super</title>
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -162,8 +162,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
     <!--//brands-->
     <!-- new -->
     <div class="container">
-            @yield('content')
-        </div>
+        @yield('content')
+    </div>
     <div class="newproducts-w3agile">
         <div class="container">
             <h3>New offers</h3>

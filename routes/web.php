@@ -12,7 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('layout');
+    return view('prueba');
 });
+
 Route::get('/prueba','AliadoController@index');
+Route::get('/comida','AliadoController@index');
+Route::get('/farmacia','AliadoController@index');
 

@@ -2,13 +2,10 @@
 
 namespace App\Http\Controllers;
 
-
-
-use App\Aliados;
 use App\Tipo;
 use Illuminate\Http\Request;
 
-class AliadoController extends Controller
+class TipoController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -17,9 +14,8 @@ class AliadoController extends Controller
      */
     public function index()
     {
-         $aliados = Aliados::all();
-        $tipos = Tipo::all();
-    return view('prueba')->with(compact('aliados','tipos'));
+        $tipos=Tipo::all();
+        return view('layout',compact('tipos'));
     }
 
     /**

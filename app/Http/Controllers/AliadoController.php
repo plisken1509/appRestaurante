@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 
 
+
+
+
 use App\Aliados;
 use App\Tipo;
 use Illuminate\Http\Request;
@@ -19,7 +22,7 @@ class AliadoController extends Controller
     {
          $aliados = Aliados::all();
         $tipos = Tipo::all();
-    return view('prueba')->with(compact('aliados','tipos'));
+    return view('index')->with(compact('aliados','tipos'));
     }
 
     /**

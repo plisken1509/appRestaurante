@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-    <title>App Name - @yield('title')</title>
+    <title>@yield('title')</title>
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -372,7 +372,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
                     </ul>
                 </div>
                 <div class="col-md-3 w3_footer_grid">
-                    <h3>Category</h3>
+                    <h3>Categorias</h3>
                     <ul class="info"> 
                         <li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="groceries.html">Groceries</a></li>
                         <li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="household.html">Household</a></li>

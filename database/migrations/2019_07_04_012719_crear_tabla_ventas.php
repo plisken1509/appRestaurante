@@ -20,6 +20,8 @@ class CrearTablaVentas extends Migration
             $table->double('iva', 8, 2);
             $table->double('total', 8, 2);  
             $table->timestamps();
+            $table->charset ="utf8mb4";
+            $table->collation ="utf8mb4_spanish_ci";
         });
     }
 

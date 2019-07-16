@@ -24,6 +24,8 @@ class CrearTablaProductos extends Migration
              $table->double('precio_unitario', 8, 2);  
             $table->boolean('condicion')->default(1);
             $table->timestamps();
+            $table->charset ="utf8mb4";
+            $table->collation ="utf8mb4_spanish_ci";
         });
     }
 

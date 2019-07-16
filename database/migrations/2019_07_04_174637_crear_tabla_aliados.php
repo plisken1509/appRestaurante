@@ -23,8 +23,11 @@ class CrearTablaAliados extends Migration
             $table->string('direccion',100);
             $table->string('telefono',10);
             $table->string('descripcion',50);
+            $table->string('foto',100)->nullable();
             $table->boolean('condicion')->default(1);
             $table->timestamps();
+            $table->charset ="utf8mb4";
+            $table->collation ="utf8mb4_spanish_ci";
         });
     }
 

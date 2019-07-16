@@ -18,6 +18,8 @@ class CrearTablaRol extends Migration
             $table->string('nombre',50)->unique();
             $table->boolean('condicion')->default(1);
             $table->timestamps();
+            $table->charset ="utf8mb4";
+            $table->collation ="utf8mb4_spanish_ci";
         });
     }
 

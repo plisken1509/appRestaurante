@@ -18,8 +18,9 @@ class CrearTablaTipos extends Migration
             $table->string('nombre',50);
             $table->string('descripcion',50);
             $table->boolean('condicion')->default(1);
-            $table->string('ruta',50);
             $table->timestamps();
+            $table->charset ="utf8mb4";
+            $table->collation ="utf8mb4_spanish_ci";
         });
     }
 

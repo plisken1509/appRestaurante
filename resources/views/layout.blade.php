@@ -49,9 +49,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
             </div>
             <div class="agile-login">
                 <ul>
-                    <li><a href="registered.html"> Create Account </a></li>
-                    <li><a href="login.html">Login</a></li>
-                    <li><a href="contact.html">Help</a></li>
+                    <li><a href="registered.html"> Registrate </a></li>
+                    <li><a href="login.html"> Iniciar Sesion </a></li>
+                    <li><a href="contact.html"> Help </a></li>
                     
                 </ul>
             </div>
